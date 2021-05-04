@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  core:
+    image: ibwighane/tomis-core
+    ports:
+      - 40000:4000
+  app:
+    image: ibwighane/tomis-app
+    ports:
+      - 30000:3000
